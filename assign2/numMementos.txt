@@ -1,0 +1,13 @@
+#!/bin/bash
+# read each memento file, extract the number of mementos, output in a file 
+
+rm memento.dat
+
+for (( i=1; i<=1000; i++ ))
+do    
+    numMen=$(cat $i | grep 'rel="memento";' | wc -l)
+    printf "$numMen\n" >> memento.dat
+done
+
+
+

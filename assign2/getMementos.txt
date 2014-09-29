@@ -1,0 +1,28 @@
+#!/bin/bash
+# gets mementos for all links
+# execute: cat uniqueURI | ./getMementos
+
+counter=1
+while read line           
+do           
+    echo "$counter"
+    link="1"
+    while [ 1 ] 
+    do
+        #get the mementos from mementoweb.org
+        wget "http://mementoweb.org/timemap/link/$link/$line" -O - >> "$counter"
+        link=$(($link+999))
+
+        ret=`grep "http://mementoweb.org/timemap/link/$link/" $counter`
+
+
+        #if there is a link to a second page, repeat and extract the mementos from that page
+        # if no second page, break
+        if [[ $ret -eq "" ]]; then
+            break
+        fi
+    done #continue to next URI
+    echo $counter
+
+    ((counter++))
+done
