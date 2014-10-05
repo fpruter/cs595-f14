@@ -1,0 +1,15 @@
+#!/bin/bash
+# gets mementos for all links
+# execute: ./lynxURI
+
+counter=1
+mkdir processedURI
+
+while [ $counter -le 1000 ]
+do           
+    echo "$counter"
+
+    lynx -dump -force_html downloadURI2/$counter > processedURI/$counter
+
+    ((counter++))
+done

@@ -1,0 +1,76 @@
+#!/bin/bash
+# Author: Francis Pruter
+# This script will ask the used for a query word, then
+#  search is of the processed websites for a match and the number
+#  of matches.  If less than 10 websites, you will be prompted
+#  for another query word.
+
+
+
+
+notfound=true
+
+ARRAY=()
+total=0
+qword=''
+
+
+while $notfound; do
+    count=0
+    echo -n "Enter a query word: "
+    read qword
+
+    #looks for the query word in all 1000 files
+    for (( i=1; i<=1000; i++ )); do 
+        resp=$(grep -o $qword getLynxURI/$i | wc -l)
+        ((total=resp+total))
+
+        #if there is a match, increase the foundcounter by 1
+        if [ $resp -gt 0 ]; then
+            ((count++))
+            ARRAY+=($i)
+        fi
+    done
+    echo "${ARRAY[@]}" 
+    echo 'total found: ' $count 
+    echo 'num occurance: ' $total
+    
+    #if there are more than 10 hit, this will exit the loop
+    if [ $count -ge 10 ]; then
+        notfound=false            
+    else #else, reset the total and arry 
+        total=0
+        ARRAY=()
+    fi
+done
+
+#uses lynx to google the number of we results for the query word
+numgoogle=$(lynx -dump -force_html 'http://www.google.com/search?q='$qword | grep 'Web About.* results')
+
+#removes everything but the number of results
+numgoogle=$(echo $numgoogle | sed s/'Web About'// | sed s/'results.*'// | sed s/','//g | sed s/' '//g)
+
+
+#ensure the output file exists
+touch pageRank.dat
+
+#outputs everything to be read and processed by tfidfScore.py
+echo -e "Numgoogle:\t"$numgoogle"\nSizeGoogle:\t42000000000" > pageRank.dat
+#size of google: http://www.worldwidewebsize.com/
+
+echo -e "File#\t#Words\t#Q" >> pageRank.dat
+
+counter=0
+for i in "${ARRAY[@]}"
+do
+    #gets the number of query words in a website
+    numQWords=$(cat getLynxURI/$i | grep -o $qword | wc -l)
+
+    #counts the number of words in the website
+    numWords=$(cat getLynxURI/$i | wc -w)
+
+    echo -e  $i "\t" $numWords "\t" $numQWords >> pageRank.dat
+
+    ((counter++))
+done
+

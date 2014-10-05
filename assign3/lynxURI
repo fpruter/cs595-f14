@@ -1,0 +1,13 @@
+#!/bin/bash
+# gets mementos for all links
+# execute: cat uniqueURI | ./lynxURI
+
+counter=1
+while read line           
+do           
+    echo "$counter"
+
+    lynx -dump -force_html $line > getLynxURI/$counter
+
+    ((counter++))
+done

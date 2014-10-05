@@ -1,0 +1,16 @@
+#!/bin/bash
+# gets mementos for all links
+# execute: cat uniqueURI | ./dlURI
+
+counter=1
+
+while read line           
+do           
+    echo "$counter"
+
+    curl $line > downloadURI2/$counter
+
+#    wget -O downloadURI2/$counter $line
+
+    ((counter++))
+done	
