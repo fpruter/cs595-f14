@@ -1,0 +1,3 @@
+digraph graphName {
+	"http://www.nytimes.com/2014/10/02/upshot/another-government-website-rollout-that-is-found-wanting.html?abt=0002&abg=0&smid=tw-upshotnyt&_r=1" -> "http://www.nytimes.com/content/help/front.html"
+}
