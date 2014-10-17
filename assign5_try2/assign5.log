@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.9.8)  16 OCT 2014 22:59
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.9.8)  16 OCT 2014 23:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -291,7 +291,20 @@ File: pppdftex.def 2013/08/25 v0.4v Pdfpages driver for pdfTeX (AM)
 File: lstlang1.sty 2013/08/26 1.5b listings language file
 )
 \c@homeworkProblemCounter=\count112
- (./assign5.aux)
+ (./assign5.aux
+
+LaTeX Warning: Label `lamport94' multiply defined.
+
+
+LaTeX Warning: Label `lamport94' multiply defined.
+
+
+LaTeX Warning: Label `lamport94' multiply defined.
+
+
+LaTeX Warning: Label `lamport94' multiply defined.
+
+)
 \openout1 = `assign5.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 211.
@@ -315,7 +328,7 @@ Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             http://www.ctan.org/tex-archive/ 
 (lastpage)             install/macros/latex/contrib/pageslts.tds.zip
 (lastpage)             ! on input line 211.
-(/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
+ (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count113
 \scratchdimen=\dimen122
@@ -396,21 +409,15 @@ File: rplot.pdf Graphic file (type pdf)
  <use rplot.pdf>
 Package pdftex.def Info: rplot.pdf used on input line 282.
 (pdftex.def)             Requested size: 379.41655pt x 379.41655pt.
-
-Overfull \hbox (310.24501pt too wide) in paragraph at lines 289--289
-[]\OT1/pcr/m/n/10 As shown by the graph, the "friendship paradox" that says you
-r friends have more friends than you, is true for my twitter account.[] 
- []
-
-[5
+ [5
 
  <./rplot.pdf>]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 297.
+(Font)              <7> on input line 298.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 297.
+(Font)              <5> on input line 298.
 
-Overfull \hbox (45.3006pt too wide) in paragraph at lines 301--302
+Overfull \hbox (45.3006pt too wide) in paragraph at lines 302--303
 [][][]$\OT1/pcr/m/n/10 https : / / docs . python . org / 2 / library / collecti
 ons . html # ordereddict-[]examples-[]and-[]recipes$[][] 
  []
@@ -424,38 +431,38 @@ pdfTeX warning (ext4): destination with the same identifier (name{cite.lamport9
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.309 \end{document}
+l.310 \end{document}
                     pdfTeX warning (ext4): destination with the same identifier
  (name{cite.lamport94}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.309 \end{document}
+l.310 \end{document}
                     pdfTeX warning (ext4): destination with the same identifier
  (name{cite.lamport94}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.309 \end{document}
+l.310 \end{document}
                     pdfTeX warning (ext4): destination with the same identifier
  (name{cite.lamport94}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.309 \end{document}
+l.310 \end{document}
                     ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 309.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 309.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 310.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 310.
  (./assign5.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 309.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 309.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 310.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 310.
 Package rerunfilecheck Info: File `assign5.out' has not changed.
 (rerunfilecheck)             Checksum: F9A4FB2F645FD3F81B07F7267859E0C0;45.
 
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 309.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 310.
  ) 
 Here is how much of TeX's memory you used:
  9085 strings out of 493304
@@ -474,7 +481,7 @@ ublic/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
 msfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
 cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb
 ></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrro8a.pfb>
-Output written on assign5.pdf (6 pages, 120892 bytes).
+Output written on assign5.pdf (6 pages, 120897 bytes).
 PDF statistics:
  156 PDF objects out of 1000 (max. 8388607)
  135 compressed objects within 2 object streams
