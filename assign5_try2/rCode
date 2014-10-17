@@ -1,0 +1,31 @@
+# ~~~~~~~~~Friends~~~~~~~~~~~~~~~~
+#Legend
+#http://stackoverflow.com/questions/3453695/adding-text-to-a-plot
+#http://www.r-bloggers.com/adding-a-legend-to-a-plot/
+
+
+friends = read.csv("friendslist", header=FALSE, sep=":")
+pdf("rplot.pdf")
+x<-friends$V1
+y<-friends$V3
+y.mean = mean(y)
+y.sd = sd(y)
+y.median = median(y)
+
+plot(x,y, log="y", main="Friend vs Friends Count", xlab="Friend Number", ylab="Friend Count", type="o")
+
+abline(h=y.mean,col="blue")
+abline(h=y.sd,col="green")
+abline(h=y.median,col="red")
+abline(v=7,col="yellow")
+
+legend("bottomright", legend = c(paste("Mean =", round(y.mean, 1)),
+                            paste("Median =",round(y.median, 1)),
+                            paste("Std.Dev =", round(y.sd, 1)),
+                            paste("Me")), 
+                   lty=c(1,1), lwd=c(2.5,2.5, 2.5,  2.5),
+                   col=c("blue","green", "red", "yellow"))
+dev.off()
+
+
+
