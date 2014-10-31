@@ -1,0 +1,24 @@
+\begin{thebibliography}{1}
+
+\bibitem{igraphtutorial}
+{python-igraph Manual}.
+\newblock {http://igraph.org/python/doc/tutorial/tutorial.html}.
+
+\bibitem{ceb}
+{python-igraph Manual}.
+\newblock
+  {http://igraph.org/python/doc/igraph.GraphBase-class.html#community_edge_betweenness}.
+
+\bibitem{wiki}
+{Wikipedia - Girvan–Newman algorithm}.
+\newblock {http://en.wikipedia.org/wiki/Girvan\%E2\%80\%93Newman\_algorithm},
+  {2004}.
+
+\bibitem{tutorial}
+{Tamas Nepusz, Gabor Csardi}.
+\newblock {python-igraph v0.6 documentation}.
+\newblock
+  {http://www.cs.rhul.ac.uk/home/tamas/development/igraph/tutorial/tutorial.html},
+  {2010}.
+
+\end{thebibliography}

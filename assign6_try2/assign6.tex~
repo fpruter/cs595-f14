@@ -346,7 +346,6 @@ Below is the the projected way it would look
 \clearpage
 
 \newpage
-\nocite{*}
 \bibliography{assign6}{}
 \bibliographystyle{plain}
 \end{document}

@@ -25,13 +25,8 @@
 \@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Projected 3 groups\relax }}{7}{figure.caption.7}}
 \@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Projected 4 groups\relax }}{8}{figure.caption.8}}
 \@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces Projected 5 groups\relax }}{8}{figure.caption.9}}
-\citation{*}
 \bibdata{assign6}
-\bibcite{igraphtutorial}{1}
-\bibcite{ceb}{2}
-\bibcite{wiki}{3}
-\bibcite{tutorial}{4}
 \bibstyle{plain}
-\newlabel{LastPage}{{}{9}{}{page.9}{}}
-\xdef\lastpage@lastpage{9}
-\xdef\lastpage@lastpageHy{9}
+\newlabel{LastPage}{{}{8}{}{page.8}{}}
+\xdef\lastpage@lastpage{8}
+\xdef\lastpage@lastpageHy{8}

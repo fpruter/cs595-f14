@@ -1,0 +1,50 @@
+This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: assign6.aux
+The style file: plain.bst
+Database file #1: assign6.bib
+Warning--to sort, need author or key in igraphtutorial
+Warning--to sort, need author or key in ceb
+Warning--to sort, need author or key in wiki
+You've used 4 entries,
+            2118 wiz_defined-function locations,
+            510 strings with 4434 characters,
+and the built_in function-call counts, 709 in all, are:
+= -- 66
+> -- 10
+< -- 0
++ -- 6
+- -- 2
+* -- 24
+:= -- 96
+add.period$ -- 9
+call.type$ -- 4
+change.case$ -- 13
+chr.to.int$ -- 0
+cite$ -- 7
+duplicate$ -- 28
+empty$ -- 92
+format.name$ -- 2
+if$ -- 168
+int.to.chr$ -- 0
+int.to.str$ -- 4
+missing$ -- 0
+newline$ -- 20
+num.names$ -- 2
+pop$ -- 32
+preamble$ -- 1
+purify$ -- 9
+quote$ -- 0
+skip$ -- 30
+stack$ -- 0
+substring$ -- 20
+swap$ -- 4
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 16
+warning$ -- 3
+while$ -- 2
+width$ -- 5
+write$ -- 34
+(There were 3 warnings)

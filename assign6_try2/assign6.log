@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.9.8)  30 OCT 2014 23:32
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.9.8)  31 OCT 2014 00:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -139,6 +139,11 @@ Package caption3 Info: TeX engine: e-TeX on input line 57.
 \c@ContinuedFloat=\count97
 Package caption Info: listings package is loaded.
 )
+(/usr/share/texlive/texmf-dist/tex/latex/cite/cite.sty
+LaTeX Info: Redefining \cite on input line 302.
+LaTeX Info: Redefining \nocite on input line 373.
+Package: cite 2010/09/10  v 5.3
+)
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
 
@@ -254,8 +259,8 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip52
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 50.
-Package hyperref Info: Option `breaklinks' set `true' on input line 50.
+Package hyperref Info: Option `colorlinks' set `true' on input line 52.
+Package hyperref Info: Option `breaklinks' set `true' on input line 52.
 
 (/usr/share/texlive/texmf-dist/tex/latex/pdfpages/pdfpages.sty
 Package: pdfpages 2013/08/25 v0.4v Insert pages of external PDF documents (AM)
@@ -294,27 +299,27 @@ File: lstlang1.sty 2013/08/26 1.5b listings language file
  (./assign6.aux)
 \openout1 = `assign6.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 211.
-LaTeX Font Info:    ... okay on input line 211.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 211.
-LaTeX Font Info:    ... okay on input line 211.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 211.
-LaTeX Font Info:    ... okay on input line 211.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 211.
-LaTeX Font Info:    ... okay on input line 211.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 211.
-LaTeX Font Info:    ... okay on input line 211.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 211.
-LaTeX Font Info:    ... okay on input line 211.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 211.
-LaTeX Font Info:    ... okay on input line 211.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 213.
+LaTeX Font Info:    ... okay on input line 213.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 213.
+LaTeX Font Info:    ... okay on input line 213.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 213.
+LaTeX Font Info:    ... okay on input line 213.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 213.
+LaTeX Font Info:    ... okay on input line 213.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 213.
+LaTeX Font Info:    ... okay on input line 213.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 213.
+LaTeX Font Info:    ... okay on input line 213.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 213.
+LaTeX Font Info:    ... okay on input line 213.
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             http://www.ctan.org/tex-archive/ 
 (lastpage)             macros/latex/contrib/pageslts/ 
 (lastpage)             or
 (lastpage)             http://www.ctan.org/tex-archive/ 
 (lastpage)             install/macros/latex/contrib/pageslts.tds.zip
-(lastpage)             ! on input line 211.
+(lastpage)             ! on input line 213.
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count113
@@ -348,7 +353,7 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \AtBeginShipoutBox=\box31
-Package hyperref Info: Link coloring ON on input line 211.
+Package hyperref Info: Link coloring ON on input line 213.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -358,20 +363,20 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count120
 )
-LaTeX Info: Redefining \ref on input line 211.
-LaTeX Info: Redefining \pageref on input line 211.
-LaTeX Info: Redefining \nameref on input line 211.
+LaTeX Info: Redefining \ref on input line 213.
+LaTeX Info: Redefining \pageref on input line 213.
+LaTeX Info: Redefining \nameref on input line 213.
 
 (./assign6.out) (./assign6.out)
 \@outlinefile=\write4
 \openout4 = `assign6.out'.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 214.
+(Font)              <12> on input line 216.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 214.
+(Font)              <8> on input line 216.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 214.
+(Font)              <6> on input line 216.
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./assign6.toc)
@@ -379,7 +384,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 \openout5 = `assign6.toc'.
 
  [2]
-LaTeX Font Info:    Try loading font information for OT1+pcr on input line 233.
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 235.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1pcr.fd
@@ -395,21 +400,21 @@ File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 File: Figures/coderunning.png Graphic file (type png)
 
 <use Figures/coderunning.png>
-Package pdftex.def Info: Figures/coderunning.png used on input line 282.
+Package pdftex.def Info: Figures/coderunning.png used on input line 284.
 (pdftex.def)             Requested size: 469.75499pt x 202.72182pt.
 
 <Figures/beforesplit.pdf, id=126, 602.25pt x 602.25pt>
 File: Figures/beforesplit.pdf Graphic file (type pdf)
 
 <use Figures/beforesplit.pdf>
-Package pdftex.def Info: Figures/beforesplit.pdf used on input line 288.
+Package pdftex.def Info: Figures/beforesplit.pdf used on input line 290.
 (pdftex.def)             Requested size: 234.87749pt x 234.87654pt.
 
 <Figures/predictedsplit.pdf, id=127, 602.25pt x 602.25pt>
 File: Figures/predictedsplit.pdf Graphic file (type pdf)
 
 <use Figures/predictedsplit.pdf>
-Package pdftex.def Info: Figures/predictedsplit.pdf used on input line 294.
+Package pdftex.def Info: Figures/predictedsplit.pdf used on input line 296.
 (pdftex.def)             Requested size: 234.87749pt x 234.87654pt.
 
 
@@ -421,14 +426,14 @@ gures/predictedsplit.pdf>]
 File: Figures/predictedsplit3.pdf Graphic file (type pdf)
 
 <use Figures/predictedsplit3.pdf>
-Package pdftex.def Info: Figures/predictedsplit3.pdf used on input line 326.
+Package pdftex.def Info: Figures/predictedsplit3.pdf used on input line 328.
 (pdftex.def)             Requested size: 234.87749pt x 234.87654pt.
 
 <Figures/predictedsplit4.pdf, id=158, 602.25pt x 602.25pt>
 File: Figures/predictedsplit4.pdf Graphic file (type pdf)
 
 <use Figures/predictedsplit4.pdf>
-Package pdftex.def Info: Figures/predictedsplit4.pdf used on input line 332.
+Package pdftex.def Info: Figures/predictedsplit4.pdf used on input line 334.
 (pdftex.def)             Requested size: 234.87749pt x 234.87654pt.
 
 
@@ -438,7 +443,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 File: Figures/predictedsplit5.pdf Graphic file (type pdf)
 
 <use Figures/predictedsplit5.pdf>
-Package pdftex.def Info: Figures/predictedsplit5.pdf used on input line 338.
+Package pdftex.def Info: Figures/predictedsplit5.pdf used on input line 340.
 (pdftex.def)             Requested size: 234.87749pt x 234.87654pt.
 
 
@@ -451,24 +456,95 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 pdfTeX warning: pdflatex (file ./Figures/predictedsplit5.pdf): PDF inclusion: m
 ultiple pdfs with page group included in a single page
->]
-No file assign6.bbl.
+>] (./assign6.bbl
+! You can't use `macro parameter character #' in horizontal mode.
+l.10 ...rg/python/doc/igraph.GraphBase-class.html#
+                                                  community_edge_betweenness}.
+? q
+OK, entering \batchmode...
+! Missing $ inserted.
+<inserted text> 
+                $
+l.10 ...doc/igraph.GraphBase-class.html#community_
+                                                  edge_betweenness}.
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
 
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 10.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 10.
+! Extra }, or forgotten $.
+l.10 ...ase-class.html#community_edge_betweenness}
+                                                  .
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.11 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.11 
+     
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--11
+[]\OT1/cmr/m/n/10 python-igraph Man-ual.  http://igraph.org/python/doc/igraph.G
+raphBase-
+ []
+
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no “ in font cmr10!
+
+Overfull \hbox (19.9406pt too wide) in paragraph at lines 13--16
+[]\OT1/cmr/m/n/10 Wikipedia - Gir-van-New-man al-go-rithm.  http://en.wikipedia
+.org/wiki/Girvan%E2%80%93Newman[]algorithm,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 18--23
+[]\OT1/cmr/m/n/10 Tamas Ne-pusz, Ga-bor Csardi.  python-igraph v0.6 doc-u-men-t
+a-tion.
+ []
+
+) 
 AED: lastpage setting LastPage
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 349.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 349.
-(./assign6.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 349.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 349.
+ [9
+
+]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 352.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 352.
+ (./assign6.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 352.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 352.
 Package rerunfilecheck Info: File `assign6.out' has not changed.
 (rerunfilecheck)             Checksum: DB6F4B6340E30BAD18346C70D5DDB968;90.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 349.
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 352.
  ) 
 Here is how much of TeX's memory you used:
- 9155 strings out of 493304
- 138975 string characters out of 6139872
- 506619 words of memory out of 5000000
- 12398 multiletter control sequences out of 15000+600000
+ 9258 strings out of 493304
+ 140246 string characters out of 6139872
+ 507528 words of memory out of 5000000
+ 12490 multiletter control sequences out of 15000+600000
  10923 words of font info for 38 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  36i,12n,43p,290b,1987s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -476,15 +552,17 @@ Here is how much of TeX's memory you used:
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist
 /fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb
-></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrro8a.pfb>
-Output written on assign6.pdf (8 pages, 207981 bytes).
+type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+r5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb
+></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/
+texlive/texmf-dist/fonts/type1/urw/courier/ucrro8a.pfb>
+Output written on assign6.pdf (9 pages, 226428 bytes).
 PDF statistics:
- 251 PDF objects out of 1000 (max. 8388607)
- 213 compressed objects within 3 object streams
- 97 named destinations out of 1000 (max. 500000)
+ 270 PDF objects out of 1000 (max. 8388607)
+ 229 compressed objects within 3 object streams
+ 103 named destinations out of 1000 (max. 500000)
  47 words of extra memory for PDF output out of 10000 (max. 10000000)
 
