@@ -276,6 +276,6 @@ URI: \url{http://www.cs.odu.edu/~fpruter/karateclub/karate.html} ~\cite{graphJSO
 \end{homeworkProblem}
 \clearpage
 
-\bibliography{assign7}{}
+\bibliography{mybib}{}
 \bibliographystyle{plain}
 \end{document}

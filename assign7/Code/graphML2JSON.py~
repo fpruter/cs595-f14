@@ -4,9 +4,7 @@
 Data file from:
 http://igraph.org/python/doc/tutorial/tutorial.html
 
-ref: 
-http://nbviewer.ipython.org/github/davidrpugh/cookbook-code/
-   blob/master/notebooks/chapter06_viz/04_d3.ipynb
+
 """
 
 from igraph import *

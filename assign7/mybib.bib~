@@ -1,0 +1,24 @@
+@misc{ graphJSON,
+	Howpublished = "{http://nbviewer.ipython.org/github/davidrpugh/cookbook-code/blob/master/notebooks/chapter06_viz/04_d3.ipynb}",
+	Title = "{python-igraph Manual}"}
+	
+
+@misc{ stackNumpy,
+        Howpublished = "{http://stackoverflow.com/questions/4315506/load-csv-into-2d-matrix-with-numpy-for-plotting}",
+        Title = "{StackOverFlow: load csv into 2D matrix with numpy for plotting}"
+        Year = "{2010}"}
+
+@misc{ d3Event,
+        Howpublished = "{http://blog.nextgenetics.net/?e=32}",
+        Title = "{Method: Data visualization with d3.js and python - part 3}"
+        Year = "{2012}"}
+
+@misc{ d3Event,
+        Howpublished = "{http://blog.nextgenetics.net/?e=32}",
+        Title = "{Method: Data visualization with d3.js and python - part 3}"
+        Author = "{David R. Pugh}"
+        Year = "{2012}"}
+
+
+
+

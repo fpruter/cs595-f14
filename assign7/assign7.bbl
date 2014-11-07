@@ -1,0 +1,19 @@
+\begin{thebibliography}{1}
+
+\bibitem{graphJSON}
+{python-igraph Manual}.
+\newblock
+  {http://nbviewer.ipython.org/github/davidrpugh/cookbook-code/blob/master/notebooks/chapter06_viz/04_d3.ipynb}.
+
+\bibitem{stackNumpy}
+{StackOverFlow: load csv into 2D matrix with numpy for plotting}.
+\newblock
+  {http://stackoverflow.com/questions/4315506/load-csv-into-2d-matrix-with-numpy-for-plotting},
+  {2010}.
+
+\bibitem{d3Event}
+{David R. Pugh}.
+\newblock {Method: Data visualization with d3.js and python - part 3}.
+\newblock {http://blog.nextgenetics.net/?e=32}, {2012}.
+
+\end{thebibliography}
