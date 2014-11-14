@@ -1,0 +1,15 @@
+\begin{thebibliography}{1}
+
+\bibitem{recpy}
+{K. Arthur Endsley}.
+\newblock recommendation.py.
+\newblock
+  \url{https://github.com/arthur-e/Programming-Collective-Intelligence/blob/master/chapter2/recommendations.py},
+  2012.
+
+\bibitem{numpy}
+SciPy.
+\newblock {Tentative NumPy Tutorial}.
+\newblock \url{http://wiki.scipy.org/Tentative_NumPy_Tutorial}, {2012}.
+
+\end{thebibliography}
