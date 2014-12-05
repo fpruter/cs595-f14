@@ -299,7 +299,7 @@ I used the code from class and clusters.py~\cite{PCI} from the book.
 
 \lstinputlisting[language=Python, caption={drawdendrogram.py},linerange={1-10}, firstnumber={1}]{code/drawdendrogram.py}
 
-Figure 2 on the next page is the JPEG created.  The ASCII dendrogram is located in data/dendrogramASCII.txt 
+Figure 2 on the next page is the JPEG created.  The ASCII dendrogram is 
 \begin{figure}[h!]
   \centering
     \includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{figures/dengrogram.jpg}
